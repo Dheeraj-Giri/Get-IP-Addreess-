@@ -2,7 +2,7 @@ import socket as s
 
 
 def ip_address():
-
+    # taking user input
     inp = input("Do you want system IP Address ? (y/n) ")
 
     if inp in ["y", "Y"]:
